@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Carousel from "./components/carousel/carousel"
+
 
 function App() {
   return (
@@ -18,8 +20,17 @@ function App() {
           Learn React
         </a>
       </header>
+      <div>
+        <Carousel>
+          <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+          <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+          <img src="https://via.placeholder.com/1600x300" alt="placeholder" />
+        </Carousel>
+      </div>
     </div>
   );
 }
 
 export default App;
+
+
